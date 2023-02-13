@@ -1,0 +1,32 @@
+nav a.nav-link {
+    font-weight: 600;
+    padding: 1.5625rem;
+    cursor: pointer;
+    
+}
+
+nav ul li {
+    
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.85rem;
+    margin-left: 0.85rem;
+    color: var(--white) !important;
+    border-bottom: 0.1875rem solid var(--dark);
+}
+
+.navbar-brand {
+    width: 1.875rem;
+    padding: 0 !important;
+    color: var(--green) !important;
+    font-weight: 600;     
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-bottom: 0.1875rem solid var(--green);
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 0.1875rem solid var(--green);
+}
