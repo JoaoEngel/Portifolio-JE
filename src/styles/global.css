@@ -2,9 +2,12 @@
 
 :root {
     --white: #fff;
-    --purple: #1d6598;
-    --green: #20aaa3;
-    --dark: #232526;
+    --purple: #623a98;
+    --blue: #35cccf;
+    --dark: #1f2224;
+    --gray-dark: #262728;
+    --pink: #ba2a77;
+    --gray: #b3b9bd;
 }
 
 * {

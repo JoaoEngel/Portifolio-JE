@@ -4,7 +4,7 @@ import "./portifolio.css"
 export default function Portifolio() {
   return (
     <div className='portifolio'>
-      Meus projetos
+      
     </div>
   )
 }

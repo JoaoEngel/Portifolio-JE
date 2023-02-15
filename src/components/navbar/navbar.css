@@ -5,10 +5,6 @@ nav a.nav-link {
     
 }
 
-nav ul li {
-    
-}
-
 .navbar-nav > li > a {
     margin-right: 0.85rem;
     margin-left: 0.85rem;
@@ -19,14 +15,15 @@ nav ul li {
 .navbar-brand {
     width: 1.875rem;
     padding: 0 !important;
-    color: var(--green) !important;
+    color: var(--blue) !important;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;     
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-bottom: 0.1875rem solid var(--green);
+    border-bottom: 0.1875rem solid var(--blue);
 }
 
 .navbar-nav > li > a:hover {
-    border-bottom: 0.1875rem solid var(--green);
+    border-bottom: 0.1875rem solid var(--blue);
 }
