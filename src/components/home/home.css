@@ -95,6 +95,16 @@
     }
 }
 
+@media (max-width: 1116px) {
+    .header-wraper {
+        background-image: url(/src/assets/images/background.png);
+    }
+
+    .main-info h2 {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 1024px) {
     .header-wraper {
         background-image: url(/src/assets/images/background.png);
@@ -109,4 +119,8 @@
         background-position: 90%;
     }
 }
+
+
+
+
 

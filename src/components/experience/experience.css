@@ -1,0 +1,5 @@
+@import "/src/styles/menu-mobile.css";
+
+.experiencia {
+    background-color: var(--blue);
+}

@@ -1,8 +1,8 @@
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
+import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
 import "./styles/global.css";
 import "./styles/menu-mobile.css";
@@ -13,8 +13,8 @@ function App() {
         <Navbar/>
         <Home/>
         <About/>
-        <Experience/>
         <Projects/>
+        <Experience/>
         <Footer/>
       </div>    
   );

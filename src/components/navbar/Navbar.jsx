@@ -22,10 +22,10 @@ export default function Navbar() {
             <a className="nav-link" href="#">Sobre-mim</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Experiência</a>
+            <a className="nav-link" href="#">Projetos</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Projetos</a>
+            <a className="nav-link" href="#">Experiência</a>
           </li>
         </ul>
       </div>

@@ -5,21 +5,20 @@
     background-color: var(--dark);
 }
 
-.col-sm-4 img {
+.col-sm-5 img {
     border-radius: 30px;
 }
 
 .col-sm-6 h2 {
     color: var(--white);
-    padding-top: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .col-sm-6 p {
     color: var(--white); 
 }
 
-@media (max-width: 912px) {
+@media (max-width: 1115px) {
     .row img {
     max-width: 200px;
     margin: auto;
@@ -35,6 +34,10 @@
         font-size: 15px;
     }
 }
+
+
+
+
 
 
 
