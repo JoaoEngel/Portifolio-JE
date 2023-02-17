@@ -1,3 +1,5 @@
+@import "/src/styles/menu-mobile.css";
+
 .header-wraper {
     position: relative;
     background: url(/src/assets/images/background.png) no-repeat;
@@ -75,5 +77,36 @@
     color: var(--white);
 }
 
+@media (max-width: 912px) {
+    .header-wraper {
+        background-position: 95%;
+    }
 
+    .main-info {
+        left: 30px;
+    }
+
+    .main-info h2 {
+        font-size: 23px;
+    }
+
+    .main-buttons {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-wraper {
+        background-image: url(/src/assets/images/background.png);
+        background-position: 90%;
+        background-size: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header-wraper {
+        background-image: url(/src/assets/images/background.png);
+        background-position: 90%;
+    }
+}
 

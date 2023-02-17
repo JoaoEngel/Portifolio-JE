@@ -1,0 +1,40 @@
+@import "/src/styles/menu-mobile.css";
+
+.padding {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark);
+}
+
+.col-sm-4 img {
+    border-radius: 30px;
+}
+
+.col-sm-6 h2 {
+    color: var(--white);
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+.col-sm-6 p {
+    color: var(--white); 
+}
+
+@media (max-width: 912px) {
+    .row img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    }
+
+    .col-sm-6 h2 {
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .col-sm-6 p {
+        font-size: 15px;
+    }
+}
+
+
+

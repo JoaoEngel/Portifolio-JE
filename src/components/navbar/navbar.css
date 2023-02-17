@@ -1,23 +1,25 @@
 nav a.nav-link {
     font-weight: 600;
     padding: 1.5625rem;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+nav ul li {
+    font-size: 20px;
 }
 
 .navbar-nav > li > a {
-    margin-right: 0.85rem;
-    margin-left: 0.85rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
     color: var(--white) !important;
     border-bottom: 0.1875rem solid var(--dark);
 }
 
 .navbar-brand {
-    width: 1.875rem;
     padding: 0 !important;
     color: var(--blue) !important;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;     
+    font-weight: 600;    
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {

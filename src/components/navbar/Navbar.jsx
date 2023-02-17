@@ -1,5 +1,6 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css"
 
 export default function Navbar() {
@@ -12,10 +13,10 @@ export default function Navbar() {
       <FontAwesomeIcon icon={faBars} style={{color:"#fff"}}/>   
       </button>
 
-      <div className="collapse navbar-collapse" id="NavbarSuport">
+      <div className="collapse navbar-collapse justify-content-end" id="NavbarSuport">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Home</a>
+            <a className="nav-link" href="#">Home<span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Sobre-mim</a>
@@ -29,6 +30,6 @@ export default function Navbar() {
         </ul>
       </div>
 </div>
-  </nav>
+    </nav>
   )
 }
