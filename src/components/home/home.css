@@ -1,126 +1,120 @@
 @import "/src/styles/menu-mobile.css";
 
 .header-wraper {
-    position: relative;
-    background: url(/src/assets/images/background.png) no-repeat;
-    background-size: 500px;
-    background-position: 70%;
-    background-color: var(--gray-dark);
-    height: 100vh;   
+  position: relative;
+  background: url(/src/assets/images/background.png) no-repeat;
+  background-size: 500px;
+  background-position: 70%;
+  background-color: var(--gray-dark);
+  height: 100vh;
 }
 
 .main-info {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 10%;
-    right: 0;
-    bottom: 0;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
 }
 
 .main-info h1 {
-    color: var(--gray);
-    font-weight: 600; 
-    font-size: 35px;
-    
+  color: var(--gray);
+  font-weight: 600;
+  font-size: 35px;
 }
 
 .main-info h2 {
-    color: var(--gray);
-    font-weight: 600;
-    font-size: 30px;   
+  color: var(--gray);
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .typed-text {
-    font-size: 45px;
-    color: var(--blue);
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
+  font-size: 45px;
+  color: var(--blue);
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
 }
 
 .btn-linkedin {
-    border: 2px solid var(--purple);
-    text-transform: uppercase;
-    border-radius: 10px;
-    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-    font-family: 'Inter', sans-serif;
-    color: var(--white);
-    font-weight: 400;
-    text-decoration: none;
-    margin: 0 15px;  
+  border: 2px solid var(--purple);
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
 .btn-linkedin:hover {
-    text-decoration: none;
-    background-color: var(--dark);
-    color: var(--white);
+  text-decoration: none;
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .btn-github {
-    border: 2px solid var(--purple);
-    text-transform: uppercase;
-    border-radius: 10px;
-    padding: 0.625rem 1.25rem 0.75rem 1.25rem;
-    font-family: 'Inter', sans-serif;
-    color: var(--white);
-    font-weight: 400;
-    text-decoration: none;
-    margin: 0 15px;
+  border: 2px solid var(--purple);
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 0.625rem 1.25rem 0.75rem 1.25rem;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
 .btn-github:hover {
-    text-decoration: none;
-    background-color: var(--dark);
-    color: var(--white);
+  text-decoration: none;
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 @media (max-width: 912px) {
-    .header-wraper {
-        background-position: 95%;
-    }
+  .header-wraper {
+    background-position: 95%;
+  }
 
-    .main-info {
-        left: 30px;
-    }
+  .main-info {
+    left: 30px;
+  }
 
-    .main-info h2 {
-        font-size: 23px;
-    }
+  .main-info h2 {
+    font-size: 23px;
+  }
 
-    .main-buttons {
-        font-size: 20px;
-    }
+  .main-buttons {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1116px) {
-    .header-wraper {
-        background-image: url(/src/assets/images/background.png);
-    }
+  .header-wraper {
+    background-image: url(/src/assets/images/background.png);
+  }
 
-    .main-info h2 {
-        font-size: 20px;
-    }
+  .main-info h2 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .header-wraper {
-        background-image: url(/src/assets/images/background.png);
-        background-position: 90%;
-        background-size: 400px;
-    }
+  .header-wraper {
+    background-image: url(/src/assets/images/background.png);
+    background-position: 90%;
+    background-size: 400px;
+  }
 }
 
 @media (max-width: 1280px) {
-    .header-wraper {
-        background-image: url(/src/assets/images/background.png);
-        background-position: 90%;
-    }
+  .header-wraper {
+    background-image: url(/src/assets/images/background.png);
+    background-position: 90%;
+  }
 }
-
-
-
-
-

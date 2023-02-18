@@ -1,29 +1,29 @@
 @import "/src/styles/menu-mobile.css";
 
 #experience {
-    background-color: var(--dark);
-    color: var(--white);
-    font-family: 'Inter', sans-serif;
-    align-items: center;
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  align-items: center;
 }
 
 #experience h2 {
-    font-weight: 600;
-    font-size: 25px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 #experience h5 {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 #experience p {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 #experience li {
-    justify-items: center;
+  justify-items: center;
 }
 
 #experience li i {
-    font-size: 23px;
+  font-size: 23px;
 }

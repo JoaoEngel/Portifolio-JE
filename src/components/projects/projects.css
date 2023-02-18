@@ -1,45 +1,43 @@
 @import "/src/styles/menu-mobile.css";
 
 #projects {
-    background-color: var(--gray-dark);
+  background-color: var(--gray-dark);
 }
 
 .Heading {
-    font-family: 'Inter', sans-serif;
-    color: var(--white);
-    font-size: 30px;
-    font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .card {
-    font-family: 'Inter', sans-serif;
-    color: var(--white);
-    font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  font-weight: 400;
 }
 
 .card-body {
-    background-color: var(--cyan);
-    border-radius: 10px;  
+  background-color: var(--cyan);
+  border-radius: 10px;
 }
 .card-soon {
-   color: var(--cyan);
+  color: var(--cyan);
 }
 
 .card-soon h5 {
-    color: var(--white);
+  color: var(--white);
 }
 
 .card-body a {
-    border: 2px solid var(--purple);
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    background-color: var(--dark);
+  border: 2px solid var(--purple);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: var(--dark);
 }
 .card-body a:hover {
-    text-decoration: none;
-    background-color: var(--gray-dark);
-    color: var(--white);
+  text-decoration: none;
+  background-color: var(--gray-dark);
+  color: var(--white);
 }
-
- 

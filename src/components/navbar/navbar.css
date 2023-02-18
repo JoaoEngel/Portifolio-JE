@@ -1,35 +1,36 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 nav a.nav-link {
-    font-weight: 600;
-    padding: 1.5625rem;
-    cursor: pointer;   
+  font-weight: 600;
+  padding: 1.5625rem;
+  cursor: pointer;
 }
 
 nav ul li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .navbar-nav > li > a {
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    color: var(--white) !important;
-    border-bottom: 0.1875rem solid var(--dark);
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--white) !important;
+  border-bottom: 0.1875rem solid var(--dark);
 }
 
 .navbar-brand {
-    padding: 0 !important;
-    color: var(--blue) !important;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;    
+  padding: 0 !important;
+  color: var(--blue) !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-bottom: 0.1875rem solid var(--blue);
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-bottom: 0.1875rem solid var(--blue);
 }
 
 .navbar-nav > li > a:hover {
-    border-bottom: 0.1875rem solid var(--blue);
+  border-bottom: 0.1875rem solid var(--blue);
 }

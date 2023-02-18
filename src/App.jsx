@@ -9,14 +9,14 @@ import "./styles/menu-mobile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
-      <div className="sections">
-        <Navbar/>
-        <Home/>
-        <About/>
-        <Projects/>
-        <Experience/>
-        <Footer/>
-      </div>    
+    <div className="sections">
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Experience />
+      <Footer />
+    </div>
   );
 }
 

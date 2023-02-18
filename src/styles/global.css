@@ -1,29 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --white: #fff;
-    --purple: #4d2581;
-    --blue: #35cccf;
-    --dark: #1f2224;
-    --gray-dark: #262728;
-    --pink: #ba2a77;
-    --gray: #747576;
-    --cyan: #2e4878;
+  --white: #fff;
+  --purple: #4d2581;
+  --blue: #35cccf;
+  --dark: #1f2224;
+  --gray-dark: #262728;
+  --pink: #ba2a77;
+  --gray: #747576;
+  --cyan: #2e4878;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
-
-
