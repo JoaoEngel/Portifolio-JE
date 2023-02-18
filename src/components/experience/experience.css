@@ -4,4 +4,26 @@
     background-color: var(--dark);
     color: var(--white);
     font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+#experience h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#experience h5 {
+    color: var(--blue);
+}
+
+#experience p {
+    font-weight: 300;
+}
+
+#experience li {
+    justify-items: center;
+}
+
+#experience li i {
+    font-size: 23px;
 }

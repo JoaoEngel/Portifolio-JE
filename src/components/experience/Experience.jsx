@@ -1,13 +1,35 @@
 import React from "react";
 import "./experience.css";
 export default function Experience() {
+
+
   return (
-   <section className="" id="experience">
-    <div className="pt-5 pb-5">
-      <div className="row m-0">
-        <div className="col-sm-3 text-center pt-3">
-        <h2>Experiência</h2>
-        <p>Apesar de já ter atuado em diversas áreas do mercado, dentro e fora da minha formação de biólogo licenciado, estou em busca da minha primeira oportunidade como desenvolvedor web &#128522;</p>
+   <section id="experience">
+    <div className="container pt-5 pb-5">
+      <div className="row justify-content-center text-center">
+        <div className="col-sm-4 p-3">
+          <h2>Experiência</h2>
+          <h5>Desenvolvedor Front-End</h5>
+          <p>Apesar de já ter atuado em diversas áreas do mercado, dentro e fora da minha formação de biólogo licenciado, estou em busca da minha primeira oportunidade como desenvolvedor web. Início dos estudos Março de 2022-atual &#128522;</p>
+        </div>
+        <div className="col-sm-4 p-3">
+          <h2>Habilidades</h2>
+          <h5>Tecnologias da minha jornada</h5>
+          <ul className="list-unstyled">
+          <li>React JS <i class="fa-brands fa-react"></i></li>
+          <li>Node JS <i class="fa-brands fa-node-js"></i></li>
+          <li>Java Script <i class="fa-brands fa-square-js"></i></li>
+          <li>Git <i class="fa-brands fa-git-alt"></i></li>
+          <li>GitHub <i class="fa-brands fa-github"></i></li>
+          <li>HTML <i class="fa-brands fa-html5"></i></li>
+          <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+          </ul>
+        </div>
+        <div className="col-sm-4 p-3">
+          <h2>Contate-me</h2>
+          <h5>Estou disponível para trabalhos</h5>
+          <p>Entre em contato comigo, através desse endereço de E-mail:</p>
+          <p>joaoengel95@gmail.com &#10024;</p>
         </div>
       </div>
     </div>

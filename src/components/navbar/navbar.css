@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav a.nav-link {
     font-weight: 600;
     padding: 1.5625rem;
