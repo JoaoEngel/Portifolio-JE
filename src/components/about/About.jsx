@@ -3,7 +3,7 @@ import "./about.css"
 import ME from "../../assets/images/foto-perfil.png";
 export default function About() {
   return (
-    <div className='padding pt-5 pb-5'>
+    <div className='padding pt-5 pb-5' id='about'>
       <div className='container'>
         <div className='row'>
           <div className='col-sm-5 pt-3 '>

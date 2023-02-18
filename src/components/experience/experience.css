@@ -1,5 +1,7 @@
 @import "/src/styles/menu-mobile.css";
 
-.experiencia {
-    background-color: var(--blue);
+#experience {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
 }

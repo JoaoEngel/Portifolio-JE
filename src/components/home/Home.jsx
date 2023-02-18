@@ -6,7 +6,7 @@ import Typed from 'react-typed';
 
 export default function Home() {
   return (
-  <div className="header-wraper">
+  <div className="header-wraper" id='home'>
     <div className="main-info">
       <h1>OLÁ! EU SOU</h1>
       <Typed
