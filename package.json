@@ -1,5 +1,6 @@
 {
-  "name": "responsive-portifolio",
+  "name": "Portifolio-JE",
+  "homepage": "https://joaoengel.github.io/JoaoEngel-Portif-lio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.4"
   }
 }
