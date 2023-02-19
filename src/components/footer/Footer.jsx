@@ -8,10 +8,11 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/joao-fabiano-engel-4a04b2160"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://github.com/JoaoEngel" target="_blank">
+        <a href="https://github.com/JoaoEngel" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-square-github"></i>
         </a>
       </div>
