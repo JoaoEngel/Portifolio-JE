@@ -21,6 +21,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/joao-fabiano-engel-4a04b2160"
             target="_blank"
             className="btn-linkedin"
+            rel="noreferrer"
           >
             Linkedin
           </a>
@@ -28,6 +29,7 @@ export default function Home() {
             href="https://github.com/JoaoEngel"
             target="_blank"
             className="btn-github"
+            rel="noreferrer"
           >
             Github
           </a>
