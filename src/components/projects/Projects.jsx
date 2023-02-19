@@ -18,6 +18,7 @@ export default function Projects() {
                 href="https://github.com/JoaoEngel/Projeto-Primeira-Landing-Page/tree/master"
                 target="_blank"
                 className="btn btn-primary"
+                rel="noreferrer"
               >
                 Repositório Github
               </a>
@@ -36,6 +37,7 @@ export default function Projects() {
                 href="https://github.com/JoaoEngel/Pok-dex---JS.git"
                 target="_blank"
                 className="btn btn-primary"
+                rel="noreferrer"
               >
                 Repositório Github
               </a>
