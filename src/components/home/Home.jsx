@@ -1,19 +1,12 @@
 import React from "react";
 import "./home.css";
-import Typed from "react-typed";
 
 export default function Home() {
   return (
     <div className="header-wraper" id="home">
       <div className="main-info">
         <h1>OLÁ! EU SOU</h1>
-        <Typed
-          className="typed-text"
-          strings={["JOÃO ENGEL"]}
-          typeSpeed={150}
-          backSpeed={100}
-          loop
-        />
+        <h3>JOÃO ENGEL</h3>
         <h2>DESENVOLVEDOR FRONT-END</h2>
         <br />
         <div className="main-buttons">
