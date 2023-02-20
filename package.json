@@ -2,6 +2,10 @@
   "name": "responsive-portif-lio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.14.1",
+    "npm": "9.5.0"
+  },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "eslint-prettier": "^0.0.0-empty",
