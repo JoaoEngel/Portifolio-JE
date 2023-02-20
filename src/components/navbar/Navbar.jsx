@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -20,7 +17,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div

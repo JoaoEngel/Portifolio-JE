@@ -7,7 +7,11 @@ export default function About() {
       <div className="container">
         <div className="row">
           <div className="col-sm-5 pt-3">
-            <img src={ME} alt="Foto-perfil-JE" />
+            <img
+              src={ME}
+              alt="Foto-perfil-JE"
+              className="img-fluid img-thumbnail"
+            />
           </div>
           <div className="col-sm-6 text-center pt-3">
             <h2>Sobre mim</h2>

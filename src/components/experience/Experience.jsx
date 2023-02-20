@@ -12,7 +12,10 @@ export default function Experience() {
               Apesar de já ter atuado em diversas áreas do mercado, dentro e
               fora da minha formação de biólogo licenciado, estou em busca da
               minha primeira oportunidade como desenvolvedor web. Início dos
-              estudos Março de 2022-atual &#128522;
+              estudos Março de 2022-atual{" "}
+              <span role="img" aria-labelledby="sparkles">
+                &#128522;
+              </span>
             </p>
           </div>
           <div className="col-sm-4 p-3">
@@ -46,7 +49,12 @@ export default function Experience() {
             <h2>Contate-me</h2>
             <h5>Estou disponível para trabalhos</h5>
             <p>Entre em contato comigo, através desse endereço de E-mail:</p>
-            <p>joaoengel95@gmail.com &#10024;</p>
+            <p>
+              joaoengel95@gmail.com{" "}
+              <span role="img" aria-labelledby="sparkles">
+                &#10024;
+              </span>
+            </p>
           </div>
         </div>
       </div>
