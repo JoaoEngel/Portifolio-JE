@@ -12,7 +12,7 @@ export default function Projects() {
               <h5 className="card-title">Landing-page com HTML e CSS</h5>
               <p className="card-text">
                 Nesse pequeno projeto de estudo, desenvolvi minha primeira
-                página estática, usando html e css.
+                página estática, usando HTML e CSS.
               </p>
               <a
                 href="https://github.com/JoaoEngel/Projeto-Primeira-Landing-Page/tree/master"
