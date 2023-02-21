@@ -31,7 +31,7 @@ export default function Projects() {
               <h5 className="card-title">Pokédex com HTML, CSS E JS</h5>
               <p className="card-text">
                 Projeto onde desenvolvi uma pokédex, consumindo uma API de
-                pokémon, com html, css e java scrtipt
+                pokémon, com HTML, CSS e Java Script.
               </p>
               <a
                 href="https://github.com/JoaoEngel/Pok-dex---JS.git"

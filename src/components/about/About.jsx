@@ -21,7 +21,7 @@ export default function About() {
               apaixonado por biologia e ciências no geral, em 2022 resolvi
               seguir uma outra paixão, a área de Programação, desde então tenho
               me dedicado a estudar as tecnologias e suas funcionalidades, com
-              muitos sonhos e objetivos há serem alcançados.
+              muitos sonhos e objetivos a serem alcançados.
             </p>
           </div>
         </div>
