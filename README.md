@@ -12,7 +12,7 @@ Status 🧑🏿‍💻:
 
 <table>
 <tr>
-<td>Ract JS v18.2.0</td>
+<td>React JS v18.2.0</td>
 <td>Bootstrap v4.1</td>
 <td>HTML</td>
 <td>CSS</td>
