@@ -22,7 +22,7 @@ Status 🧑🏿‍💻:
 ## How to run the apllication:
 
 1) Install React app or Vite
-2) Rin with a package which you prefer
+2) Run with a package manager which you prefer
 
 ## Description 📑 :
 
