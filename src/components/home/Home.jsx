@@ -1,12 +1,23 @@
 import React from "react";
 import "./home.css";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
     <div className="header-wraper" id="home">
       <div className="main-info">
         <h1>OLÁ! EU SOU</h1>
-        <h3>JOÃO ENGEL</h3>
+        <h3>
+          <Typewriter
+            options={{
+              strings: ["JOÃO ENGEL"],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: "natural",
+            }}
+            typeSpeed={30}
+          />
+        </h3>
         <h2>DESENVOLVEDOR FRONT-END</h2>
         <br />
         <div className="main-buttons">
