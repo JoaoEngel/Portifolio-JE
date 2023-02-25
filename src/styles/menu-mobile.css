@@ -2,13 +2,13 @@
   .header-wraper {
     background-image: url(/src/assets/images/background.png) no-repeat;
     background-size: 300px;
-    background-position: center;
+    background-position: center 60%;
   }
 
   .main-info {
     display: block;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 20%;
     left: 0;
     justify-content: center;
     align-items: center;
@@ -24,11 +24,7 @@
   }
 
   .main-info h3 {
-    font-size: 25px;
-  }
-
-  .typed-text {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .main-buttons {

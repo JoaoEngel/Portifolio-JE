@@ -16,7 +16,7 @@ export default function About() {
           <div className="col-sm-6 text-center pt-3">
             <h2>Sobre mim</h2>
             <p className="lead">
-              Seja bem vindo(a)! Eu me chamo João Fabiano Engel, tenho 28 anos e
+              Seja bem vindo(a)! Eu me chamo João Fabiano Engel, tenho 29 anos e
               sou formado em ciências biológicas licenciatura. Mesmo sendo
               apaixonado por biologia e ciências no geral, em 2022 resolvi
               seguir uma outra paixão, a área de Programação, desde então tenho

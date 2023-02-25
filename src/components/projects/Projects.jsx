@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="container p-5" />
       <div className="Heading pb-3">Projetos</div>
       <div className="row m-0 pt-4 justify-content-center">
-        <div className="col-lg-3 p-3">
+        <div className="col-lg-3 p-3" data-aos="zoom-in" data-aos-offset="250">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Landing-page com HTML e CSS</h5>
@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 p-3">
+        <div className="col-lg-3 p-3" data-aos="zoom-in" data-aos-offset="250">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Pokédex com HTML, CSS E JS</h5>
@@ -44,7 +44,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 p-3">
+        <div className="col-lg-3 p-3" data-aos="zoom-in" data-aos-offset="250">
           <div className="card card-soon">
             <div className="card-body">
               <h5 className="card-title">EM BREVE</h5>
