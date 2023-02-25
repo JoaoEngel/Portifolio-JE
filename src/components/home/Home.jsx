@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
-    <div className="header-wraper" id="home">
+    <div className="header-wraper mt-5" id="home">
       <div className="main-info">
         <h1>OLÁ! EU SOU</h1>
         <h3>
