@@ -3,7 +3,7 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#home">
           &lsaquo;JE/&rsaquo;
